@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: git-page
+  output-dir: docs
 
 website:
   title: "web"
