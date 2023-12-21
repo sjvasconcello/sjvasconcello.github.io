@@ -1,5 +1,70 @@
 ---
-title: "About"
+title: "Santiago J. Vasconcello Acuña"
+image: img/santiago_vasconcello.jpg
+toc: false
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/sjvasconcello/
+    - text: Twitter
+      href: https://twitter.com/sjvasconcello
+    - text: GitHub
+      href: https://github.com/sjvasconcello
+    - text: Email
+      href: santiago.vasconcello@usm.cl
 ---
 
-About this site
+## Hi! Hola! Hallo! こんにちわ!
+
+Hola! Soy Ingeniero comercial de la Universidad Técnica Federico Santa María y también estudio ciencia de datos de manera autodidacta. Me considero un nerd orgulloso.
+
+---
+
+## Experiencía
+
+**Asistente de investigación** | NAGIVO (2023 · 7 meses)
+
+- Investigación en NLP para el desarrollo de aplicaciones usando LLMs y su implementación en casos reales de negocios
+- Realización de procesos de ETL usando herramientas como Python y Selenium
+- Apoyo en análisis de datos y uso de machine learning para investigación universitaria
+
+**Intership Risk and Control** | Moneda Asset Management (dic. 2022 - abr. 2023 · 5 meses)
+
+- Optimización de procesos usando Macros (VBA) logrando optimizar 18 horas al mes
+- Análisis y monitoreo de derivados financieros (SWAP, NDF, CDS)
+- Mejoramiento de informes de riesgo para portafolios de renta variable nacional e internacional
+
+**Practica en Marketing** | IC Innovation (ene. 2021 - mar. 2021 · 3 meses)
+
+- Realización de estudios de mercado y levantamiento de información para la implementación de una estrategia de Marketing tanto en Google Ads, Facebook Ads y trabajo con Influenciadores.
+
+**Ayudante de Cátedra** | Universidad Técnica Federico Santa María
+
+- Emprendimiento e innovación (2023)
+- Dirección Financiera (2023)
+- Finanzas Corporativas (2022)
+- Dirección Financiera (2022)
+- Econometría (Estadística y Modelado en Economía  2022) 
+- Metodos Cuantitativos para los Negocios (Estadística y R - 2021)
+- Economia A1 (La economía como ciencia, la teoría del consumidor, el mercado
+equilibrio, entre otros temas básicos -2019)
+
+---
+
+## Educación  
+
+**Ingenieria Comercial** | Universidad Técnica Federico Santa María (2019-2023)
+
+**Escuela de Data Science** | Platzi (2020 - actualidad)
+
+**English Advance C1 Certification** | EF Executive Language Institute (2018 - 3 meses)
+
+---
+
+### Soy @sjvasconcello en todas las RRSS
+[![LinkedIn](https://img.shields.io/badge/sjvasconcello-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sjvasconcello/)
+[![Twitter](https://img.shields.io/badge/sjvasconcello-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/sjvasconcello)
+[![Instagram](https://img.shields.io/badge/sjvasconcello-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/sjvasconcello)

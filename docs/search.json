@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "web",
+    "title": "",
     "section": "",
-    "text": "This is a Santiago J. Vasconcello website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Uso esto para trabajar\n              \n\n\nMe gusta trabajar usando\n       \n\n\nMe gusta usar\n    \n\n\nMis ultimas stats en github\n\n \n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Santiago J. Vasconcello Acuña",
     "section": "",
-    "text": "About this site"
+    "text": "Hola! Soy Ingeniero comercial de la Universidad Técnica Federico Santa María y también estudio ciencia de datos de manera autodidacta. Me considero un nerd orgulloso."
+  },
+  {
+    "objectID": "about.html#hi-hola-hallo-こんにちわ",
+    "href": "about.html#hi-hola-hallo-こんにちわ",
+    "title": "Santiago J. Vasconcello Acuña",
+    "section": "",
+    "text": "Hola! Soy Ingeniero comercial de la Universidad Técnica Federico Santa María y también estudio ciencia de datos de manera autodidacta. Me considero un nerd orgulloso."
+  },
+  {
+    "objectID": "about.html#experiencía",
+    "href": "about.html#experiencía",
+    "title": "Santiago J. Vasconcello Acuña",
+    "section": "Experiencía",
+    "text": "Experiencía\nAsistente de investigación | NAGIVO (2023 · 7 meses)\n\nInvestigación en NLP para el desarrollo de aplicaciones usando LLMs y su implementación en casos reales de negocios\nRealización de procesos de ETL usando herramientas como Python y Selenium\nApoyo en análisis de datos y uso de machine learning para investigación universitaria\n\nIntership Risk and Control | Moneda Asset Management (dic. 2022 - abr. 2023 · 5 meses)\n\nOptimización de procesos usando Macros (VBA) logrando optimizar 18 horas al mes\nAnálisis y monitoreo de derivados financieros (SWAP, NDF, CDS)\nMejoramiento de informes de riesgo para portafolios de renta variable nacional e internacional\n\nPractica en Marketing | IC Innovation (ene. 2021 - mar. 2021 · 3 meses)\n\nRealización de estudios de mercado y levantamiento de información para la implementación de una estrategia de Marketing tanto en Google Ads, Facebook Ads y trabajo con Influenciadores.\n\nAyudante de Cátedra | Universidad Técnica Federico Santa María\n\nEmprendimiento e innovación (2023)\nDirección Financiera (2023)\nFinanzas Corporativas (2022)\nDirección Financiera (2022)\nEconometría (Estadística y Modelado en Economía 2022)\nMetodos Cuantitativos para los Negocios (Estadística y R - 2021)\nEconomia A1 (La economía como ciencia, la teoría del consumidor, el mercado equilibrio, entre otros temas básicos -2019)"
+  },
+  {
+    "objectID": "about.html#educación",
+    "href": "about.html#educación",
+    "title": "Santiago J. Vasconcello Acuña",
+    "section": "Educación",
+    "text": "Educación\nIngenieria Comercial | Universidad Técnica Federico Santa María (2019-2023)\nEscuela de Data Science | Platzi (2020 - actualidad)\nEnglish Advance C1 Certification | EF Executive Language Institute (2018 - 3 meses)\n\n\nSoy @sjvasconcello en todas las RRSS"
   }
 ]

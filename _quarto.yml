@@ -3,18 +3,25 @@ project:
   output-dir: docs
 
 website:
-  title: "web"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Sobre mí
+  page-footer: 
+    left: "Copyright 2023, Santiago Vasconcello" 
+    right: 
+      - icon: github
+        href: https://github.com/sjvasconcello
+      - icon: twitter 
+        href: https://twitter.com/sjvasconcello
+  back-to-top-navigation: true
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
 
 
