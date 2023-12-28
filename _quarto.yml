@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
+  search: false
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: Sobre mí
+      - href: cv.qmd
+        text: CV
   page-footer: 
     left: "Copyright 2023, Santiago Vasconcello" 
     right: 
@@ -20,7 +23,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 

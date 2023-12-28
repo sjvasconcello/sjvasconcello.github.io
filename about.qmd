@@ -1,6 +1,7 @@
 ---
 title: "Santiago J. Vasconcello Acuña"
 image: img/santiago_vasconcello.jpg
+id: "sobre-mi"
 toc: false
 about: 
   template: trestles
@@ -17,6 +18,7 @@ about:
       href: santiago.vasconcello@usm.cl
 ---
 
+:::{#hero-heading}
 ## Hi! Hola! Hallo! こんにちわ!
 
 Hola! Soy Ingeniero comercial de la Universidad Técnica Federico Santa María y también estudio ciencia de datos de manera autodidacta. Me considero un nerd orgulloso.
@@ -63,6 +65,7 @@ equilibrio, entre otros temas básicos -2019)
 **English Advance C1 Certification** | EF Executive Language Institute (2018 - 3 meses)
 
 ---
+:::
 
 ### Soy @sjvasconcello en todas las RRSS
 [![LinkedIn](https://img.shields.io/badge/sjvasconcello-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sjvasconcello/)
