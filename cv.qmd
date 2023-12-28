@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum vitae
+title: CV
 excerpt: My current CV
 execute:
   freeze: true  # never re-render during project render
