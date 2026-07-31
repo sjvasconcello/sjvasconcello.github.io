@@ -101,22 +101,31 @@
   }
 
   /* ---------- Typing effect ---------- */
-  const roles = [
-    "Data Scientist.",
-    "AI Engineer.",
-    "Ingeniero Comercial.",
-    "Vendo alfajores.",
-    "Saco copias de llaves.",
-  ];
   const typedEl = document.getElementById("typed");
 
-  if (prefersReducedMotion) {
-    typedEl.textContent = roles[0];
-  } else {
+  const getRoles = () => {
+    const lang = localStorage.getItem("lang") || "es";
+    const dict = window.__I18N_DICT && window.__I18N_DICT[lang];
+    return (dict && dict.roles) || [
+      "Data Scientist.", "AI Engineer.", "Ingeniero Comercial.",
+      "Vendo alfajores.", "Saco copias de llaves.",
+    ];
+  };
+
+  let typingTimer = null;
+  let roles = getRoles();
+
+  const startTyping = (wordList) => {
+    if (typingTimer) clearTimeout(typingTimer);
     let roleIdx = 0, charIdx = 0, deleting = false;
 
+    if (prefersReducedMotion) {
+      typedEl.textContent = wordList[0];
+      return;
+    }
+
     const tick = () => {
-      const word = roles[roleIdx];
+      const word = wordList[roleIdx];
       typedEl.textContent = word.slice(0, charIdx);
 
       let delay = deleting ? 40 : 85;
@@ -125,15 +134,25 @@
         deleting = true;
       } else if (deleting && charIdx === 0) {
         deleting = false;
-        roleIdx = (roleIdx + 1) % roles.length;
+        roleIdx = (roleIdx + 1) % wordList.length;
         delay = 350;
       } else {
         charIdx += deleting ? -1 : 1;
       }
-      setTimeout(tick, delay);
+      typingTimer = setTimeout(tick, delay);
     };
     tick();
-  }
+  };
+
+  startTyping(roles);
+
+  /* ---------- Reaccionar a cambio de idioma ---------- */
+  window.addEventListener("langchange", (e) => {
+    roles = (e.detail && e.detail.roles) || roles;
+    startTyping(roles);
+    const y = document.getElementById("year");
+    if (y) y.textContent = new Date().getFullYear();
+  });
 
   /* ---------- Partículas ---------- */
   const canvas = document.getElementById("particles");
